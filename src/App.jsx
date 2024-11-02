@@ -6,6 +6,8 @@ import ProductsPage from './pages/ProductsPage'
 import Sidebar from './components/Sidebar'
 import SalesPage from './pages/SalesPage'
 import UsersPage from './pages/UsersPage'
+import OrdersPage from './pages/OrderPage'
+import AnalyticsPage from './pages/AnalyticsPage'
 
 function App() {
 
@@ -26,6 +28,8 @@ function App() {
           <Route path="/products" element={<ProductsPage/>}/>
           <Route path="/sales" element={<SalesPage/>}/>
           <Route path="/users" element={<UsersPage/>}/>
+          <Route path="/orders" element={<OrdersPage/>}/>
+          <Route path="/analytics" element={<AnalyticsPage/>}/>
         </Routes>
        </div>
     </>
